@@ -46,6 +46,7 @@ a {
 .header-right>ul {
     display: flex;
     padding-left: -90px;
+    margin-top: 20px;
 }
 
 .header-right>ul>li {
@@ -71,7 +72,7 @@ a {
     font-weight: 600;
     font-size: 50px;
     line-height: 105px;
-    top: 200px;
+    top: 300px;
     margin-left: 240px;
 }
 
@@ -92,6 +93,7 @@ a {
 }
 
 .big-left>.big-left-title {
+    margin-top: 34px;
     margin-left: 50px;
     width: 250px;
     color: #fff;
@@ -109,6 +111,7 @@ a {
 }
 
 .big-right>.big-right-title {
+    margin-top: 34px;
     margin-right: 50px;
     width: 250px;
     color: #fff;
@@ -126,10 +129,18 @@ a {
     margin-left: 50px;
 }
 
+.product-head-title>h2{
+    margin-top: 20px;
+}
+
 .product-items{
     display: flex;
-    justify-content: space-between;
     height: 486px;
+}
+
+.product-item>img{
+    height: 400px;
+    width: 378px;
 }
 .product-item{
     background-color: rgb(255, 255, 255);
@@ -139,7 +150,7 @@ a {
     align-items: flex-end;
 }
 .product-item:hover{
-    background-color: rgb(95, 51, 255);
+    background-color:#333399;
 }
 .product-item>.product-title{
     position: absolute;
@@ -151,7 +162,8 @@ footer{
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 .social-icons{
-    padding-top: 30px;
+    padding-top: 48px;
+    padding-bottom: 90px;
 }
 .social-icons>ul{
     display: flex;
@@ -166,6 +178,7 @@ footer{
 }
 .footer-bottom{
     display: flex;
+    margin-bottom: 30px;
 }
 .footer-title{
     display: flex;
@@ -176,6 +189,11 @@ footer{
     display: flex;
     padding: 0px;
 }
+
+.footer-c-title{
+    margin-top: 7px;
+}
+
 .footer-logo{
     padding: 15px 30px;
     display: flex;
