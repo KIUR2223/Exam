@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 
@@ -18,7 +19,7 @@ a {
     color: inherit;
 }
 
-.container {
+.background {
     background-image: url(./image/background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,10 +67,11 @@ a {
 }
 
 .header-title>h1 {
+    position: absolute;
     font-weight: 600;
     font-size: 50px;
     line-height: 105px;
-    margin-top: 200px;
+    top: 200px;
     margin-left: 240px;
 }
 
