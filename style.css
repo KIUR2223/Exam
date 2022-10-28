@@ -131,6 +131,7 @@ a {
 
 .product-head-title>h2{
     margin-top: 20px;
+    margin-bottom: 20px
 }
 
 .product-items{
@@ -217,3 +218,14 @@ footer{
 .footer-title-menu>ul>li:last-child{
     border-right: none;
 }
+
+.social-icons .fb:hover{
+    color: blue;
+}
+
+.social-icons .tw:hover{
+    color: #1DA1F2;
+ }
+ .social-icons .in:hover{
+    color:#0077b5;
+ }
