@@ -12,12 +12,13 @@ body {
 
 ul>li {
     list-style-type: none;
-    padding-left: 30px;
 }
 
 a {
+    list-style-type: none;
     text-decoration: none;
-    color: inherit;
+    color: inherit; 
+    padding-left: 20px;
 }
 
 .background {
@@ -47,7 +48,7 @@ a {
 .header-right>ul {
     display: flex;
     padding-left: -90px;
-    margin-top: 20px;
+    margin-top: 15px;   
 }
 
 .header-right>ul>li {
@@ -55,10 +56,10 @@ a {
 
 }
 
-.header-right>ul>li:hover {
+.header-right>ul>a:hover {
     background-color: black;
     color: #fff;
-    padding: 15px;
+    padding: 10px;
     border-radius: 20px;
 }
 
@@ -166,6 +167,7 @@ footer{
 .social-icons{
     padding-top: 48px;
     padding-bottom: 90px;
+    margin-left: 35px;
 }
 .social-icons>ul{
     display: flex;
@@ -194,9 +196,12 @@ footer{
 
 .footer-c-title{
     margin-top: 7px;
+    margin-bottom: 5px;
+    margin-left: 20px;
 }
 
 .footer-logo{
+    margin-top: 5px;
     padding: 15px 30px;
     display: flex;
     justify-content: center;
@@ -209,7 +214,7 @@ footer{
 .footer-title-menu>ul>li:first-child{
     padding-left: 0;
 }
-.footer-title-menu>ul>li{
+.footer-title-menu>ul>a>li{
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
